@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(material/fondo.jpg);
+    background-size: cover;
+}
+form{
+    background-color: rgb(255, 255, 255);
+}
+form:hover{
+    border: 2px solid ;
+}
+.navbar{
+    background: rgb(0 0 0 / 100%);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    
+} 
+
+.navbar-light .navbar-toggler {
+    color: rgba(75, 61, 61, 0.55);
+    border-color: rgba(0,0,0,.1);
+    background-color: #727070;
+}
+
+.main{
+    padding-top: 50px;
+    background: linear-gradient(rgba(0,0,0,0.4) ,rgba(0,0,0,0.4)),url(material/entrenamiento/cbum-1669971164.jpeg) no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+.categorias{
+    margin-bottom: 10px;
+}
+.card{
+    padding-top: 10px;
+    width: 78%;
+    height: 380px;
+}
+
+h1{
+
+    font-size: 60px;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+  color: transparent;
+  opacity: 80%; 
+    font-family: 'Phantom Storm', sans-serif;
+    font-family: 'Phantom Storm 3D', sans-serif;
+    font-family: 'Phantom Storm 3D Italic', sans-serif;
+    font-family: 'Phantom Storm Chrome', sans-serif;
+    font-family: 'Phantom Storm Chrome Italic', sans-serif;
+    font-family: 'Phantom Storm Condensed', sans-serif;
+    font-family: 'Phantom Storm Condensed Italic', sans-serif;
+    font-family: 'Phantom Storm Expanded', sans-serif;
+    font-family: 'Phantom Storm Expanded Italic', sans-serif;
+    font-family: 'Phantom Storm Gradient', sans-serif;
+    font-family: 'Phantom Storm Gradient Italic', sans-serif;
+    font-family: 'Phantom Storm Halftone', sans-serif;
+    font-family: 'Phantom Storm Halftone Italic', sans-serif;
+    font-family: 'Phantom Storm Italic', sans-serif;
+    font-family: 'Phantom Storm Leftalic', sans-serif;
+    font-family: 'Phantom Storm Rotalic', sans-serif;
+    font-family: 'Phantom Storm Semi-Italic', sans-serif;
+    font-family: 'Phantom Storm Semi-Leftalic', sans-serif;
+    font-family: 'Phantom Storm Spaced', sans-serif;
+    font-family: 'Phantom Storm Spaced Italic', sans-serif;
+    font-family: 'Phantom Storm Super-Italic', sans-serif;
+    font-family: 'Phantom Storm Super-Leftalic', sans-serif;
+    font-family: 'Phantom Storm Wide', sans-serif;
+    font-family: 'Phantom Storm Wide Italic', sans-serif;
+}
+
+.informacion{
+    background-color: rgba(0 0 0 / 50%);
+
+}
+
+.back:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.back{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+.back::before{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, #61605f 0%, #000000);
+    z-index: -1;
+    transition: all 0.8s;
+}
+.back:hover::before{
+    height: 100%;
+}
+.back:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+h2{
+    color: aliceblue;
+    font-family: 'Phantom Storm', sans-serif;
+    font-family: 'Phantom Storm 3D', sans-serif;
+    font-family: 'Phantom Storm 3D Italic', sans-serif;
+    font-family: 'Phantom Storm Chrome', sans-serif;
+    font-family: 'Phantom Storm Chrome Italic', sans-serif;
+    font-family: 'Phantom Storm Condensed', sans-serif;
+    font-family: 'Phantom Storm Condensed Italic', sans-serif;
+    font-family: 'Phantom Storm Expanded', sans-serif;
+    font-family: 'Phantom Storm Expanded Italic', sans-serif;
+    font-family: 'Phantom Storm Gradient', sans-serif;
+    font-family: 'Phantom Storm Gradient Italic', sans-serif;
+    font-family: 'Phantom Storm Halftone', sans-serif;
+    font-family: 'Phantom Storm Halftone Italic', sans-serif;
+    font-family: 'Phantom Storm Italic', sans-serif;
+    font-family: 'Phantom Storm Leftalic', sans-serif;
+    font-family: 'Phantom Storm Rotalic', sans-serif;
+    font-family: 'Phantom Storm Semi-Italic', sans-serif;
+    font-family: 'Phantom Storm Semi-Leftalic', sans-serif;
+    font-family: 'Phantom Storm Spaced', sans-serif;
+    font-family: 'Phantom Storm Spaced Italic', sans-serif;
+    font-family: 'Phantom Storm Super-Italic', sans-serif;
+    font-family: 'Phantom Storm Super-Leftalic', sans-serif;
+    font-family: 'Phantom Storm Wide', sans-serif;
+    font-family: 'Phantom Storm Wide Italic', sans-serif;
+
+}
+
+
+.Nutricion{
+    padding: 100PX 15px 100PX 15px;
+    background-color: rgb(0, 0, 0);
+}
+.Nutricion p{
+    font-size: 21px;
+    font-weight: 400;
+}
+.consumo{
+    padding: 100PX 15px 100PX 15px;
+    background-color: #ffffff;
+}
+.suplementos{
+    padding: 100PX 0 100PX 0;
+    background-color: white;
+}
+.suplementos img{
+    width: 100%;
+    height: 550px;
+}
+.cuerpo{
+
+    background-color: #000000;
+}
+.dieta{
+    padding-top: 80px;
+}
+.footer{
+    background-color: white;
+    margin-top: 180px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.footer a:hover{
+    border-radius: 5px solid black;
+    text-decoration: none;
+}
+.principios{
+    margin: 0;
+    padding: 0;
+}
+.principios img{
+    width: 100%;
+    height: 550px;
+}
+.importante{
+    background-color: white;
+}
